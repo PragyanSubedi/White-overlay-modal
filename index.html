@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Pop up</title>
+
+      <!-- CSS -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400" rel="stylesheet">
+      <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      
+  </head>
+
+  <body>
+      <!-- Open modal button -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text">
+                <div class="top-big-link">
+                	<a class="btn btn-link-1 launch-modal" href="#" data-modal-id="modal-register">Launch modal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- MODAL -->
+    <div class="modal fade" id="modal-register" tabindex="-1" role="dialog" aria-labelledby="modal-register-label" aria-hidden="true">
+    	<div class="modal-dialog modal-dialog-width">
+    		<div class="modal-content">
+    			<div>
+    				<button type="button" class="close-button" data-dismiss="modal">
+    					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+    				</button>
+    				<h3 class="modal-title modal-title-font" id="modal-register-label">Sign up with The Startup Network</h3>
+    				<p class="p-style">Easily using</p>
+            <button class="fb-btn">Facebook</button>
+            <button class="google-btn">Google</button>
+            <p class="p-style"> - or using email - </p>
+			      
+            <!-- Form  -->
+            <form role="form" action="" method="post" class="registration-form" style="margin-left:105px">
+            	<div>
+              	<input type="text" name="form-first-name" placeholder="Enter Email Address" class="form-first-name form-control input-field" id="form-first-name">
+              </div>
+              <div>
+              	<input type="text" name="form-last-name" placeholder="Create Password" class="form-last-name form-control input-field" id="form-last-name" align="middle">
+              </div>
+            </form>   
+
+            <button type="submit" class="btn btn-register">Register</button>
+            <p class="p-ender"> Already have an account? <a href="#"> <span style="color:#00bed0;"> Login </span></a></p>   
+    			</div>	
+    		</div>
+    	</div>
+    </div> <!--MODAL end -->
+    
+   <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+
+</html>
